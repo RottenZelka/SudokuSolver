@@ -184,7 +184,7 @@ int main(void) {
   char *input, *output;
   printf("Input File Name: ");
   scanf("%s", input);
-  printf("Input File Name: ");
+  printf("Output File Name: ");
   scanf("%s", output);
 
   grid_maker(input, output);
